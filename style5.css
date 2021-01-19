@@ -1,0 +1,291 @@
+.header{
+    background-image: url(images/Group\ 110.png);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding-bottom:50px ;
+    color: #fff;
+    width: 100%;
+    padding: 70px 30px;
+    background-color: #366acc;
+}
+
+.btn-exp{
+    background-color: #FFA500;
+    border: none;
+    padding: 13px;
+    border-radius: 29px;
+    width: 211px;
+    font-size: 16px;
+    position: relative;
+    top: 31px;
+}
+.heading{
+    background-color: #b8c6db;
+    margin: 0 auto;
+}
+
+
+.img-spot {
+    height: 117px;
+    background-image: url("Images/Image 10.png");
+    position: relative;
+}
+.reg img
+{
+    width: 44%;
+    max-width: 238px;
+    position: relative;
+    top: 45px;
+}
+
+.starton
+{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.time,.fee,.venue
+{
+    font-weight: 400;
+}
+.btn
+{
+    background-color: #2a2a72;
+    color: white;
+    width: 100%;
+}
+
+.events
+{
+    top: 300px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F3!important;
+}
+.images
+{
+   padding-top: 200px;
+}
+.images img
+{
+   max-width: 350px;
+}
+.img2
+{
+    position: absolute;
+    bottom: 403px;
+    left: 285px;
+}
+.img1
+{
+    position: relative;
+        z-index: 1;
+        left: 38px;
+}
+.img3
+{
+    position: relative;
+    bottom: 65px;
+    left: 218px;
+}
+
+.info{
+    top: 300px;
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F3!important;
+}
+.info p
+{
+    text-align: start;
+    word-spacing: 2px;
+    font-size: 34px;
+    font-family: Brush Script MT, Brush Script Std;
+}
+.bg-footer{
+    background-image: url(./Images/Group\ 33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+}
+.list-social li{
+    padding: 10px;
+    
+}
+.btn-social-icon{
+    padding: 5px;
+    border-radius: 50%;
+    color: #ffff;
+}
+.fb{
+    background: #326dda;
+    padding:3px 12px;
+}
+.insta{
+    background: #663e3e;
+}
+.linked{
+    background: #688fd8;
+}
+.twit{
+    background: #326dda;
+}
+.sideline{
+    border-right: 2px solid black;
+}
+.gap{
+    padding-top: 100px;
+}
+@media (max-width: 768px) { 
+    .images img
+{
+   max-width: 250px;
+}
+    .img2
+    {
+        top:130px;
+        position: absolute;
+         bottom: 403px;
+        left: 185px;
+    }
+    .img1
+    {
+        position: relative;
+        z-index: 1;
+        left: 38px;
+    }
+    .img3
+    {
+        position: relative;
+        bottom: 65px;
+        left: 218px;
+    }
+    .info{
+        padding-top: 10px;
+    }
+    .list-social li{
+        display: inline;
+        padding: 20px;
+        
+    }
+    .btn-social-icon{
+        border-radius: 50%;
+    }
+    .sideline{
+        border-right: none;
+    }
+    
+ }
+
+
+@media (max-width: 576px) { 
+    .images
+    {
+       padding-top: 70px;
+    }
+    .images img
+    {
+       max-width: 150px;
+    }
+    .img2
+    {
+        top:5px;
+        position: absolute;
+         bottom: 0px;
+        left: 145px;
+    }
+    .img1
+    {
+        position: relative;
+        z-index: 2;
+        left: 48px;
+    }
+    .img3
+    {
+        position: relative;
+        bottom: 45px;
+        left: 138px;
+    }
+    .info{
+        padding-top: 10px;
+    }
+   
+ }
+
+
+
+ .tcards
+ {
+     width: 100%;
+     display: flex;
+     place-content: center;
+     margin-top: 59px;
+     flex-wrap: wrap;
+     padding: 15px;
+ }
+ .t1
+ {
+     background-color:#fefefa;
+     border: 1px solid #fefefa;
+     box-shadow: 1px 2px 16px 11px lightgrey;
+ }
+ 
+ .t2
+ {
+     background-color:#fefefa;
+     border: 1px solid #fefefa;
+     box-shadow: 1px 2px 16px 11px lightgrey;
+ }
+ 
+ .t1>.t1head
+ {
+     width: 86%;
+     background-color: rgb(311, 170, 189,0.70);
+     border-radius: 0px 100px 100px 0px;
+     position: relative;
+     top: 22px;
+     right: 12px;
+     height: 100px;
+ }
+ .t2>.t1head
+ {
+     width: 86%;
+     background-color:rgb(110, 119, 203,0.70);
+     border-radius: 0px 100px 100px 0px;
+     position: relative;
+     top: 22px;
+     right: 12px;
+     height: 100px;
+ }
+ .t1head h4
+ {
+     display: inline-block;
+     position: absolute;
+     top: 14px;
+ }
+ .t1head p
+ {
+     display: inline-block;
+     position: absolute;
+     top: 50px;
+ }
+ .t1body
+ {
+     padding: 35px;
+     font-weight: 600;
+ }
+ .t2body
+ {
+     padding: 35px;
+     font-weight: 600;
+ }
+ .clip-circle
+{
+    clip-path: circle(35.3% at 50% 34%);
+    width: 100%;
+    max-width: 96px;
+}
